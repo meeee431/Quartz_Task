@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ 
+      <Server>192.168.0.78</Server><!--SQL Server服务器IP-->
+      <Database>JGSTEEL_BIGDATA</Database><!--数据库名-->
+      <User>sa</User><!--登录服务器的用户名-->
+      <Pass>saPwd!@#</Pass><!--密码-->
+      <SmsAddress>192.168.0.120</SmsAddress> <!--短信机地址-->
+      <SmsCode>untask</SmsCode><!--短信机APICode-->
+      <SmsName>untask</SmsName><!--短信机用户名-->
+      <SmsPwd>untask</SmsPwd><!--短信机密码-->
+      <FirstOutTime>24</FirstOutTime><!--第一次超时时间/小时-->
+      <SecondOutTime>48</SecondOutTime><!--第二次超时时间/小时-->
+      <ThirdOutTime>72</ThirdOutTime><!--第三次超时时间/小时-->
+      <SendType>1</SendType><!--第一次发送方式0为短消息1为邮件-->
+      <FirstSendType>1</FirstSendType><!--第一次发送方式0为短消息1为邮件-->
+      <SecondSendType>0</SecondSendType><!--第二次发送方式0为短消息1为邮件-->
+      <ThirdSendType>1</ThirdSendType><!--第三次发送方式0为短消息1为邮件-->
+
+</Config >

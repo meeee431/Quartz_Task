@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz_Task", "Quartz_Task\Quartz_Task.csproj", "{5BA763EF-A2A0-4725-9031-C7BF7B76633B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi\WebApi.csproj", "{06E07BB4-8E4E-45D6-927E-18749ED66337}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BA763EF-A2A0-4725-9031-C7BF7B76633B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA763EF-A2A0-4725-9031-C7BF7B76633B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA763EF-A2A0-4725-9031-C7BF7B76633B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA763EF-A2A0-4725-9031-C7BF7B76633B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E07BB4-8E4E-45D6-927E-18749ED66337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E07BB4-8E4E-45D6-927E-18749ED66337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E07BB4-8E4E-45D6-927E-18749ED66337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E07BB4-8E4E-45D6-927E-18749ED66337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
